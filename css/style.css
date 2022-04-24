@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     font-size: 62.5%;
@@ -201,7 +205,7 @@ input {
     margin-bottom: 10px;
 }
 
-.course__counter-line, 
+.course__counter-line,
 .course__progress-label {
     color: #FFFFFF40;
 }
@@ -383,7 +387,7 @@ progress::-moz-progress-value {
 }
 
 .program-line {
-    display: flex;    
+    display: flex;
     justify-content: space-between;
     width: 750px;
 }
@@ -620,6 +624,17 @@ progress::-moz-progress-value {
 
 .modal__button {
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+.close_btn {
+    font-size: 28px;
+    cursor: pointer;
+    color: #DF5950;
+    transition: 0.3s;
+}
+
+.close_btn:hover {
+    color: #651046;
 }
 
 .active {
